@@ -1,0 +1,5 @@
+principal=float(input("enter the principal amount:"))
+days=float(input("Enter the number of days:"))
+dailyrate=float(input("enter daily interest:"))
+interest return=(principal/100)*(daily interest rate/365)*(number of days)
+print(interest return)
