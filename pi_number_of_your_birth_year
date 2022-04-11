@@ -1,0 +1,14 @@
+filename = "pi_thousand_digits.txt"
+with open(filename) as file_object:
+    lines = file_object.readlines()
+pi_string = ""
+for line in lines:
+    pi_string += line.rstrip()
+
+print(f"{pi_string.replace(' ','')} ...")
+print(len(pi_string))
+birthyear = input("Enter your birthyear: ")
+if birthyear in pi_string:
+    print("Your birthday appears in the first 1100 digits of pi!")
+else:
+    print("Your birthday does not appears in the first 1000 digits of pi!")
